@@ -67,7 +67,7 @@ const collectibles = [
   },
 ]
 
-const rarityColors = {
+const rarityColors: Record<string, string> = {
   common: "border-gray-500/50 shadow-gray-500/20",
   rare: "border-blue-500/50 shadow-blue-500/30",
   epic: "border-purple-500/50 shadow-purple-500/40",
